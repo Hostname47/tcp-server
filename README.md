@@ -1,4 +1,7 @@
-make all                  # Compile both the client and server
-make run-server           # Terminal 1: Start server
-make demo1                # Terminal 2: Run demo
+## Usage
+
+```bash
+make all                # Compile everything
+make run-server         # Terminal 1: start the server
+make demo1              # Terminal 2: run the demo
 make msg MSG="Your text"  # Send a custom message
